@@ -93,11 +93,6 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
             public void onResponse(@NonNull Call<NewsModel> call, @NonNull Response<NewsModel> response) {
                 if (response.isSuccessful()) {
                     Toast.makeText(MainActivity.this, "In "+category+" News  Category 1", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(MainActivity.this, "In "+category+" News  Category 2", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(MainActivity.this, "In "+category+" News  Category 3", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(MainActivity.this, "In "+category+" News  Category 4", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(MainActivity.this, "In "+category+" News  Category 5", Toast.LENGTH_SHORT).show();
-
                     NewsModel newsModel = response.body();
                     loadingPB.setVisibility(View.GONE);
                     assert newsModel != null;
@@ -112,6 +107,7 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
                     }
                     Toast.makeText(MainActivity.this, "Before News  Category Adapter", Toast.LENGTH_SHORT).show();
                     newsRVAdapter.notifyDataSetChanged();
+                    Toast.makeText(MainActivity.this, "After News  Category Adapter", Toast.LENGTH_SHORT).show();
 
 
                 }else {
