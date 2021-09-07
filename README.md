@@ -21,9 +21,9 @@
 This Project is part of the NAID Mobile App Internship hosted and managed by Sprints concerning `Building an News App Using News API`. 
 
 ## Tools 
-> Retrofit2
-> Gson Converter
-> Picasso
+- Retrofit
+- Gson Converter
+- Picasso
 
 <p align="center">
   <img src="images/News_API_Problem.gif" width="300" />
@@ -65,7 +65,7 @@ However, you can apply the concepts of the projects with any other prefered prog
 | 03 |          [Constraint Layout](https://github.com/mohamed-abdelaziz721/Constraint-Layout)              |    :heavy_check_mark:    |
 | 04 | [Navigation Throught Activities](https://github.com/mohamed-abdelaziz721/Navigation-Throught-Activities)              |    :heavy_check_mark:    |
 | 05 | [Accessibility App](https://github.com/mohamed-abdelaziz721/Accessibility-App)              |    :heavy_check_mark:    |
-| 06 | [News App using Api](https://github.com/mohamed-abdelaziz721/News_App_API_Retrofit_Picasso)              |   :hourglass_flowing_sand:    |
+| 06 | [News App using Api](https://github.com/mohamed-abdelaziz721/News_API_Android_Studio)              |   :hourglass_flowing_sand:    |
 
 
 
