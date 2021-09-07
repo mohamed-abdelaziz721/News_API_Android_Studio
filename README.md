@@ -21,9 +21,9 @@
 This Project is part of the NAID Mobile App Internship hosted and managed by Sprints concerning `Building an News App Using News API`. 
 
 ## Tools 
-> Retrofit2
-> Gson Converter
-> Picasso
+- Retrofit
+- Gson Converter
+- Picasso
 
 <p align="center">
   <img src="images/News_API_Problem.gif" width="300" />
