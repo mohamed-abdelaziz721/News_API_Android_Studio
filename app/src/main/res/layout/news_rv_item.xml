@@ -15,8 +15,8 @@
             android:id="@+id/idIV_News"
             android:layout_width="match_parent"
             android:layout_height="210dp"
-            android:scaleType="centerCrop"
-            android:contentDescription="@string/news_image"/>
+            android:contentDescription="@string/news_image"
+            android:scaleType="centerCrop" />
 
         <TextView
             android:id="@+id/idTV_NewsHeading"
